@@ -237,9 +237,11 @@ font-family: 'Roboto Slab', serif;*/
 }
 @media screen and (max-width: 840px) {
   .firstView-wrapper-concept {
+      
     flex-wrap: wrap;
     justify-content: center;
-  }
+  margin-bottom: 50px;
+    }
 }
 .firstView-wrapper-concept-image {
   margin-right: 34px;
@@ -620,13 +622,13 @@ font-family: 'Roboto Slab', serif;*/
 /*eclair*/
 .media-wrapper-eclairBlog {
   position: relative;
-  margin-bottom: 215px;
+  padding-bottom: 215px;
   display: flex;
   justify-content: center;
 }
 @media screen and (max-width: 1000px) {
   .media-wrapper-eclairBlog {
-    margin-bottom: 132px;
+    padding-bottom: 132px;
     flex-wrap: wrap;
   }
 }
@@ -773,4 +775,50 @@ font-family: 'Roboto Slab', serif;*/
   .media-wrapper-eclairBlog-column-item-description {
     font-size: 12px;
   }
+}
+/*note*/
+.note-wrapper{
+    position: relative;
+}
+.note-wrapper-bg{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    overflow: hidden;
+}
+.note-wrapper-bg-bgColor{
+    position: relative;
+    top: 78px;
+    left: -264.3px;
+    transform: rotate(5.38deg);
+    width: 1719.57px;
+    height: 1460.21px;
+    background-color: #02B6A0;
+}
+.note-wrapper-inner{
+    padding-top: 140px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+.note-wrapper-inner-titles{
+    padding-top: 39px;
+    display: flex;
+    align-items: center;
+}
+.note-wrapper-inner-titles-mainTitle{
+    margin-left: 75px;
+    line-height: 1.28125;
+    text-shadow: 4px 4px 0px #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    color: #fff;
+}
+.note-wrapper-inner-titles-subTitle{
+    margin-left: 51px;
+    text-shadow: 1px 1px 0px #333;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
 }
