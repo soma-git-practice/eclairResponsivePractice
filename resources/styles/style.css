@@ -788,14 +788,24 @@ font-family: 'Roboto Slab', serif;*/
     width: 100vw;
     overflow: hidden;
 }
-.note-wrapper-bg-bgColor{
+.note-wrapper-bg-bgColor02B6A0{
     position: relative;
+    z-index: 4;
     top: 78px;
     left: -264.3px;
     transform: rotate(5.38deg);
     width: 1719.57px;
     height: 1460.21px;
     background-color: #02B6A0;
+}
+.note-wrapper-bg-bgColor333{
+    position: absolute;
+    z-index: 3;
+/*    bottom: 41px;*/
+    bottom: 32px;
+    width: 100vw;
+    padding-bottom: 89px;
+    background-color: #333;
 }
 .note-wrapper-inner{
     position: relative;
@@ -879,8 +889,11 @@ font-family: 'Roboto Slab', serif;*/
 .note-wrapper-inner-cards-bottomSide-rightImage-img{
     width: 100%;
 }
+/*黒い背景*/
+/*
 .blackBg{
     width: 100vw;
     padding-bottom: 89px;
     background-color: #333;
 }
+*/
