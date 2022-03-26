@@ -777,6 +777,7 @@ font-family: 'Roboto Slab', serif;*/
   }
 }
 /*note*/
+/*
 .note-wrapper{
     position: relative;
     z-index: 2;
@@ -801,7 +802,6 @@ font-family: 'Roboto Slab', serif;*/
 .note-wrapper-bg-bgColor333{
     position: absolute;
     z-index: 3;
-/*    bottom: 41px;*/
     bottom: 32px;
     width: 100vw;
     padding-bottom: 89px;
@@ -851,10 +851,15 @@ font-family: 'Roboto Slab', serif;*/
 .note-wrapper-inner-cards-topSide-image-img{
     width: 100%;
 }
-/*middleside*/
+
 .note-wrapper-inner-cards-middleSide{
-    margin-bottom: 108px;
+    padding-bottom: 108px;
     display: flex;
+}
+@media screen and (max-width: 1000px){
+    .note-wrapper-inner-cards-middleSide{
+        flex-wrap: wrap;
+    }
 }
 .note-wrapper-inner-cards-middleSide-leftImage{
     margin-left: 56px;
@@ -870,10 +875,15 @@ font-family: 'Roboto Slab', serif;*/
 .note-wrapper-inner-cards-middleSide-rightImage-img{
     width: 100%;
 }
-/*bottom*/
+
 .note-wrapper-inner-cards-bottomSide{
-    margin-bottom: 176px;
+    padding-bottom: 176px;
     display: flex;
+}
+@media screen and (max-width: 1000px){
+    .note-wrapper-inner-cards-bottomSide{
+        flex-wrap: wrap;
+    }
 }
 .note-wrapper-inner-cards-bottomSide-leftImage{
     margin-left: 139px;
@@ -888,12 +898,7 @@ font-family: 'Roboto Slab', serif;*/
 }
 .note-wrapper-inner-cards-bottomSide-rightImage-img{
     width: 100%;
+}*/
+.note-wrapper{
+    position: relative;
 }
-/*黒い背景*/
-/*
-.blackBg{
-    width: 100vw;
-    padding-bottom: 89px;
-    background-color: #333;
-}
-*/
