@@ -779,10 +779,12 @@ font-family: 'Roboto Slab', serif;*/
 /*note*/
 .note-wrapper{
     position: relative;
+    z-index: 2;
 }
 .note-wrapper-bg{
     position: absolute;
-    z-index: -1;
+    z-index: 3;
+    padding-bottom: 146px;
     width: 100vw;
     overflow: hidden;
 }
@@ -796,11 +798,14 @@ font-family: 'Roboto Slab', serif;*/
     background-color: #02B6A0;
 }
 .note-wrapper-inner{
+    position: relative;
+    z-index: 5;
     padding-top: 140px;
     margin-right: 5vw;
     margin-left: 5vw;
 }
 .note-wrapper-inner-titles{
+    margin-bottom: 66px;
     padding-top: 39px;
     display: flex;
     align-items: center;
@@ -817,8 +822,65 @@ font-family: 'Roboto Slab', serif;*/
 .note-wrapper-inner-titles-subTitle{
     margin-left: 51px;
     text-shadow: 1px 1px 0px #333;
+    line-height: 1.77777778;
+    letter-spacing: 0.0555em;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 18px;
     font-weight: normal;
     color: #fff;
+}
+.note-wrapper-inner-cards-topSide{
+    margin-bottom: 54px;
+    display: flex;
+    justify-content: center;
+}
+.note-wrapper-inner-cards-topSide-image{
+    margin-left: 67px;
+    width: 499px;
+}
+.note-wrapper-inner-cards-topSide-image-img{
+    width: 100%;
+}
+/*middleside*/
+.note-wrapper-inner-cards-middleSide{
+    margin-bottom: 108px;
+    display: flex;
+}
+.note-wrapper-inner-cards-middleSide-leftImage{
+    margin-left: 56px;
+    width: 500px;
+}
+.note-wrapper-inner-cards-middleSide-leftImage-img{
+    width: 100%;
+}
+.note-wrapper-inner-cards-middleSide-rightImage{
+    margin-left: 108px;
+    width: 331px;
+}
+.note-wrapper-inner-cards-middleSide-rightImage-img{
+    width: 100%;
+}
+/*bottom*/
+.note-wrapper-inner-cards-bottomSide{
+    margin-bottom: 176px;
+    display: flex;
+}
+.note-wrapper-inner-cards-bottomSide-leftImage{
+    margin-left: 139px;
+    width: 331px;
+}
+.note-wrapper-inner-cards-bottomSide-leftImage-img{
+    width: 100%;
+}
+.note-wrapper-inner-cards-bottomSide-rightImage{
+    margin-left: 88px;
+    width: 500px;
+}
+.note-wrapper-inner-cards-bottomSide-rightImage-img{
+    width: 100%;
+}
+.blackBg{
+    width: 100vw;
+    padding-bottom: 89px;
+    background-color: #333;
 }
