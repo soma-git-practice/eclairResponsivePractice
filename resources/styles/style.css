@@ -953,14 +953,14 @@ font-family: 'Roboto Slab', serif;*/
 }
 /*cards-top*/
 .note-wrapper-middle-inner-cards-lineTop {
+  margin-left: 67px;
+  margin-bottom: 54px;
   display: flex;
   align-items: center;
   justify-content: center;
-    margin-left: 67px;
-    margin-bottom: 54px;
 }
 .note-wrapper-middle-inner-cards-lineTop-image {
-/*  margin-left: 67px;*/
+  /*  margin-left: 67px;*/
   width: 499px;
   flex-shrink: 0;
 }
@@ -969,7 +969,7 @@ font-family: 'Roboto Slab', serif;*/
 }
 /*cards-middle*/
 .note-wrapper-middle-inner-cards-lineMiddle {
-    margin-right: 101px;
+  margin-right: 101px;
   display: flex;
   justify-content: center;
   gap: 108px;
@@ -994,6 +994,26 @@ font-family: 'Roboto Slab', serif;*/
 .note-wrapper-middle-inner-cards-lineMiddle-rightImage-img {
   width: 100%;
 }
+/*cards-bottom*/
+.note-wrapper-middle-inner-cards-lineBottom{
+    display: flex;
+    justify-content: center;
+}
+/*cards-bottom-left*/
+.note-wrapper-middle-inner-cards-lineBottom-leftImage{
+    width: 331px;
+}
+.note-wrapper-middle-inner-cards-lineBottom-leftImage-img{
+    width: 100%;
+}
+/*cards-bottom-right*/
+.note-wrapper-middle-inner-cards-lineBottom-rightImage{
+    width: 500px;
+}
+.note-wrapper-middle-inner-cards-lineBottom-rightImage-img{
+    width: 100%;
+}
+/*下三角形*/
 .note-wrapper-bottom {
   border-top: 9.531vw solid #02B6A0;
   border-left: 100vw solid #333;
