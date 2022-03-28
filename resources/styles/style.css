@@ -957,6 +957,7 @@ font-family: 'Roboto Slab', serif;*/
   align-items: center;
   justify-content: center;
     margin-left: 67px;
+    margin-bottom: 54px;
 }
 .note-wrapper-middle-inner-cards-lineTop-image {
 /*  margin-left: 67px;*/
@@ -968,6 +969,7 @@ font-family: 'Roboto Slab', serif;*/
 }
 /*cards-middle*/
 .note-wrapper-middle-inner-cards-lineMiddle {
+    margin-right: 101px;
   display: flex;
   justify-content: center;
   gap: 108px;
