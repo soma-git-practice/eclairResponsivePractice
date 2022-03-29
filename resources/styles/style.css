@@ -991,8 +991,10 @@ font-family: 'Roboto Slab', serif;*/
 
 /*cards-top*/
 .note-wrapper-middle-inner-cards-lineTop {
-  margin-left: 67px;
-  padding-bottom: 54px;
+/*  margin-left: 67px;*/
+    margin-left: 57px;
+/*  padding-bottom: 54px;*/
+    padding-bottom: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1001,7 +1003,8 @@ font-family: 'Roboto Slab', serif;*/
     .note-wrapper-middle-inner-cards-lineTop{
         margin-right: auto;
         margin-left: 5.9%;
-        padding-bottom: 26px;
+/*        padding-bottom: 26px;*/
+        padding-bottom: 36px;
         display: block;
     }
 }
@@ -1011,13 +1014,15 @@ font-family: 'Roboto Slab', serif;*/
     } 
 }
 .note-wrapper-middle-inner-cards-lineTop-image {
-  /*  margin-left: 67px;*/
-  width: 499px;
+  width: 489px;
+/*    width: 498px;*/
+    box-shadow: 10px 10px 0px #333;
   flex-shrink: 0;
 }
 @media screen and (max-width: 628px){
     .note-wrapper-middle-inner-cards-lineTop-image{
-        width: 255px;
+/*        width: 255px;*/
+        width: 245px;
     }
 }
 .note-wrapper-middle-inner-cards-lineTop-image-img {
