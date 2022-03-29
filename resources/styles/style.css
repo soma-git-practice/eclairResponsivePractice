@@ -1016,7 +1016,6 @@ font-family: 'Roboto Slab', serif;*/
 .note-wrapper-middle-inner-cards-lineTop-image {
   width: 489px;
 /*    width: 498px;*/
-    box-shadow: 10px 10px 0px #333;
   flex-shrink: 0;
 }
 @media screen and (max-width: 628px){
@@ -1026,7 +1025,13 @@ font-family: 'Roboto Slab', serif;*/
     }
 }
 .note-wrapper-middle-inner-cards-lineTop-image-img {
+    box-shadow: 10px 10px 0px #333;
   width: 100%;
+}
+@media screen and (max-width: 628px){
+    .note-wrapper-middle-inner-cards-lineTop-image-img {
+        border: 1px solid #333;
+    }
 }
 /*cards-middle*/
 .note-wrapper-middle-inner-cards-lineMiddle {
@@ -1080,6 +1085,11 @@ font-family: 'Roboto Slab', serif;*/
 .note-wrapper-middle-inner-cards-lineMiddle-leftImage-img {
   width: 100%;
 }
+@media screen and (max-width: 628px){
+    .note-wrapper-middle-inner-cards-lineMiddle-leftImage-img {
+        border: 1px solid #333;
+    }
+}
 /*cards-middle-rightImage*/
 .note-wrapper-middle-inner-cards-lineMiddle-rightImage {
 /*  width: 331px;*/
@@ -1112,6 +1122,11 @@ font-family: 'Roboto Slab', serif;*/
 .note-wrapper-middle-inner-cards-lineMiddle-rightImage-img {
     box-shadow: 10px 10px 0px #333;
   width: 100%;
+}
+@media screen and (max-width: 628px){
+    .note-wrapper-middle-inner-cards-lineMiddle-rightImage-img {
+        border: 1px solid #333;
+    }
 }
 /*cards-bottom*/
 .note-wrapper-middle-inner-cards-lineBottom {
@@ -1165,6 +1180,11 @@ font-family: 'Roboto Slab', serif;*/
     box-shadow: 10px 10px 0px #333;
   width: 100%;
 }
+@media screen and (max-width: 628px){
+.note-wrapper-middle-inner-cards-lineBottom-leftImage-img{
+        border: 1px solid #333;
+    }
+}
 /*cards-bottom-right*/
 .note-wrapper-middle-inner-cards-lineBottom-rightImage {
   display: flex;
@@ -1198,6 +1218,11 @@ font-family: 'Roboto Slab', serif;*/
 .note-wrapper-middle-inner-cards-lineBottom-rightImage-img {
     box-shadow: 10px 10px 0px #333;
   width: 100%;
+}
+@media screen and (max-width: 628px){
+.note-wrapper-middle-inner-cards-lineBottom-rightImage-img{
+        border: 1px solid #333;
+    }
 }
 /*下三角形*/
 .note-wrapper-bottom {
