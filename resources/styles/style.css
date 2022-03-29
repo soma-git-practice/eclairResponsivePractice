@@ -1030,22 +1030,28 @@ font-family: 'Roboto Slab', serif;*/
 }
 /*cards-middle*/
 .note-wrapper-middle-inner-cards-lineMiddle {
-  margin-right: 101px;
-  padding-bottom: 108px;
+/*  margin-right: 101px;*/
+    margin-right: 111px;
+/*  padding-bottom: 108px;*/
+    margin-bottom: 118px;
   display: flex;
   justify-content: center;
-  gap: 108px;
+/*  gap: 108px;*/
+    gap:118px;
 }
 @media screen and (max-width: 1200px){
     .note-wrapper-middle-inner-cards-lineMiddle{
         margin-right: 0px;
-        padding-bottom: 0px;
+/*        padding-bottom: 0px;*/
+        margin-bottom: 0px;
         display: block;
     }
 }
 /*cards-middle-leftImage*/
 .note-wrapper-middle-inner-cards-lineMiddle-leftImage {
-  width: 500px;
+/*  width: 500px;*/
+    width: 490px;
+    box-shadow: 10px 10px 0px #333;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -1053,14 +1059,16 @@ font-family: 'Roboto Slab', serif;*/
 @media screen and (max-width: 1200px){
     .note-wrapper-middle-inner-cards-lineMiddle-leftImage{
         margin-right: 5.9%;
-        margin-bottom: 26px;
+/*        margin-bottom: 26px;*/
+        margin-bottom: 36px;
         margin-left: auto;
         display: block;
     }
 }
 @media screen and (max-width: 628px){
     .note-wrapper-middle-inner-cards-lineMiddle-leftImage{
-        width: 189px;
+/*        width: 189px;*/
+        width: 179px;
     }
 }
 @media screen and (max-width: 400px){
@@ -1074,7 +1082,8 @@ font-family: 'Roboto Slab', serif;*/
 }
 /*cards-middle-rightImage*/
 .note-wrapper-middle-inner-cards-lineMiddle-rightImage {
-  width: 331px;
+/*  width: 331px;*/
+    width: 321px;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -1082,14 +1091,16 @@ font-family: 'Roboto Slab', serif;*/
 @media screen and (max-width: 1200px){
     .note-wrapper-middle-inner-cards-lineMiddle-rightImage{
         margin-right: auto;
-        margin-bottom: 45px;
+/*        margin-bottom: 45px;*/
+        margin-bottom: 55px;
         margin-left: 5.9%;
         display: block;
     }
 }
 @media screen and (max-width: 628px){
     .note-wrapper-middle-inner-cards-lineMiddle-rightImage{
-        width: 190px;
+/*        width: 190px;*/
+        width: 180px;
     }
 }
 @media screen and (max-width: 400px){
@@ -1099,15 +1110,18 @@ font-family: 'Roboto Slab', serif;*/
     }
 }
 .note-wrapper-middle-inner-cards-lineMiddle-rightImage-img {
+    box-shadow: 10px 10px 0px #333;
   width: 100%;
 }
 /*cards-bottom*/
 .note-wrapper-middle-inner-cards-lineBottom {
   margin-left: 45px;
-  padding-bottom: 172px;
+/*  padding-bottom: 172px;*/
+    padding-bottom: 182px;
   display: flex;
   justify-content: center;
-  gap: 88px;
+/*  gap: 88px;*/
+    gap:98px;
 }
 @media screen and (max-width: 1200px){
     .note-wrapper-middle-inner-cards-lineBottom{
@@ -1121,21 +1135,24 @@ font-family: 'Roboto Slab', serif;*/
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 331px;
+/*  width: 331px;*/
+    width: 321px;
   flex-shrink: 0;
 }
 
 @media screen and (max-width: 1200px){
     .note-wrapper-middle-inner-cards-lineBottom-leftImage{
         margin-right: 5.9%;
-        margin-bottom: 45px;
+/*        margin-bottom: 45px;*/
+        margin-bottom: 55px;
         margin-left: auto;
         display: block;
     } 
 }
 @media screen and (max-width: 628px){
     .note-wrapper-middle-inner-cards-lineBottom-leftImage{
-        width: 239px;
+/*        width: 239px;*/
+        width: 229px;
     }
 }
 @media screen and (max-width: 400px){
@@ -1145,6 +1162,7 @@ font-family: 'Roboto Slab', serif;*/
     }
 }
 .note-wrapper-middle-inner-cards-lineBottom-leftImage-img {
+    box-shadow: 10px 10px 0px #333;
   width: 100%;
 }
 /*cards-bottom-right*/
@@ -1152,20 +1170,23 @@ font-family: 'Roboto Slab', serif;*/
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px;
+/*  width: 500px;*/
+    width: 490px;
   flex-shrink: 0;
 }
 @media screen and (max-width: 1200px){
     .note-wrapper-middle-inner-cards-lineBottom-rightImage{
         margin-right: auto;
         margin-left: 5.9%;
-        padding-bottom: 85px;
+/*        padding-bottom: 85px;*/
+        padding-bottom: 95px;
         display: block;
     }
 }
 @media screen and (max-width: 628px){
     .note-wrapper-middle-inner-cards-lineBottom-rightImage{
-        width: 271px;
+/*        width: 271px;*/
+        width: 261px;
     }
 }
 @media screen and (max-width: 400px){
@@ -1175,6 +1196,7 @@ font-family: 'Roboto Slab', serif;*/
     }
 }
 .note-wrapper-middle-inner-cards-lineBottom-rightImage-img {
+    box-shadow: 10px 10px 0px #333;
   width: 100%;
 }
 /*下三角形*/
