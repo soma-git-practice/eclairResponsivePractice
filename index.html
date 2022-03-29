@@ -1,281 +1,494 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-<link rel="stylesheet" href="resources/styles/destyle.css">
-<link rel="stylesheet" href="resources/styles/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-<title>エクレアのコーディング教材</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="resources/styles/destyle.css" />
+    <link rel="stylesheet" href="resources/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>エクレアのコーディング教材</title>
+  </head>
 
-<body>
-<header class="header">
-  <div class="header-wrapper">
-    <nav class="header-wrapper-nav">
-      <ul class="header-wrapper-nav-list">
-        <li class="header-wrapper-nav-list-item">
-          <a href="#" class="header-wrapper-nav-list-item-link">
-            CONCEPT
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <nav class="header-wrapper-nav">
+          <ul class="header-wrapper-nav-list">
+            <li class="header-wrapper-nav-list-item">
+              <a href="#" class="header-wrapper-nav-list-item-link">
+                CONCEPT
+              </a>
+            </li>
+            <li class="header-wrapper-nav-list-item">
+              <a href="#" class="header-wrapper-nav-list-item-link"> MEDIA </a>
+            </li>
+            <li class="header-wrapper-nav-list-item siteLogo">
+              <h1 class="header-wrapper-nav-list-item-image">
+                <img
+                  src="resources/img/logo.svg"
+                  alt="サイトロゴ"
+                  class="header-wrapper-nav-list-item-image-img"
+                />
+              </h1>
+            </li>
+            <li class="header-wrapper-nav-list-item">
+              <a href="#" class="header-wrapper-nav-list-item-link"> SNS </a>
+            </li>
+            <li class="header-wrapper-nav-list-item">
+              <a href="#" class="header-wrapper-nav-list-item-link"> LESSON </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="firstView">
+        <div class="firstView-wrapper">
+          <div class="firstView-wrapper-firstBG_wrapper">
+            <div class="firstView-wrapper-firstBG">
+              <img
+                src="resources/img/circle-first@2x.png"
+                alt="背景画像１"
+                class="firstView-wrapper-image"
+              />
+            </div>
+          </div>
+          <div class="firstView-wrapper-secondBG">
+            <img
+              src="resources/img/circle-second@2x.png"
+              alt="背景画像２"
+              class="firstView-wrapper-image"
+            />
+          </div>
+          <div class="firstView-wrapper-thirdBG">
+            <div class="firstView-wrapper-thirdBG-container">
+              <img
+                src="resources/img/circle-third@2x.png"
+                alt="背景画像３"
+                class="firstView-wrapper-image"
+              />
+            </div>
+          </div>
+          <a href="" class="firstView-wrapper-thumbnail">
+            <div class="firstView-wrapper-thumbnail-image">
+              <img
+                src="resources/img/thumbnail@2x.png"
+                alt="エクレアのコーディング配信のサムネイル画像"
+                class="firstView-wrapper-thumbnail-image-img"
+              />
+            </div>
           </a>
-        </li>
-        <li class="header-wrapper-nav-list-item">
-          <a href="#" class="header-wrapper-nav-list-item-link">
-            MEDIA
-          </a>
-        </li>
-        <li class="header-wrapper-nav-list-item siteLogo">
-          <h1 class="header-wrapper-nav-list-item-image">
-            <img src="resources/img/logo.svg" alt="サイトロゴ" class="header-wrapper-nav-list-item-image-img">
-          </h1>
-        </li>
-        <li class="header-wrapper-nav-list-item">
-          <a href="#" class="header-wrapper-nav-list-item-link">
-            SNS
-          </a>
-        </li>
-        <li class="header-wrapper-nav-list-item">
-          <a href="#" class="header-wrapper-nav-list-item-link">
-            LESSON
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<main>
-  <section class="firstView">
-    <div class="firstView-wrapper">
-      <div class="firstView-wrapper-firstBG_wrapper">
-        <div class="firstView-wrapper-firstBG">
-          <img src="resources/img/circle-first@2x.png" alt="背景画像１" class="firstView-wrapper-image">
-        </div>
-      </div>
-      <div class="firstView-wrapper-secondBG">
-        <img src="resources/img/circle-second@2x.png" alt="背景画像２" class="firstView-wrapper-image">
-      </div>
-      <div class="firstView-wrapper-thirdBG">
-        <div class="firstView-wrapper-thirdBG-container">
-          <img src="resources/img/circle-third@2x.png" alt="背景画像３" class="firstView-wrapper-image">
-        </div>
-      </div>
-      <a href="" class="firstView-wrapper-thumbnail">
-        <div class="firstView-wrapper-thumbnail-image">
-          <img src="resources/img/thumbnail@2x.png" alt="エクレアのコーディング配信のサムネイル画像" class="firstView-wrapper-thumbnail-image-img">
-        </div>
-      </a>
-      <time datetime="2022-02-12T19:30" class="firstView-wrapper-time">02.12.19:30 <br class="firstView-wrapper-time-br">
-        NOW ON AIR</time>
-      <div class="firstView-wrapper-concept">
-        <div class="firstView-wrapper-concept-image">
-          <img src="resources/img/siteLogoConcept@2x.png" alt="サイトロゴ" class="firstView-wrapper-concept-image-img">
-        </div>
-        <div class="firstView-wrapper-concept-texts">
-          <h2 class="firstView-wrapper-concept-texts-title">タイトルが入ります。タイトルが入ります。タイトルが入ります。</h2>
-          <p class="firstView-wrapper-concept-texts-text">本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="media">
-    <div class="media-wrapper">
-      <!--        eclairMedia-->
-      <div class="media-wrapper-eclairMedia">
-        <!--             背景-->
-        <div class="media-wrapper-eclairMedia-bgOutSide">
-          <div class="media-wrapper-eclairMedia-bgOutSide-bgInSide">
-            <img src="resources/img/mediaCircleFirst@2x.png" alt="背景画像４" class="mediaImg">
+          <time datetime="2022-02-12T19:30" class="firstView-wrapper-time"
+            >02.12.19:30 <br class="firstView-wrapper-time-br" />
+            NOW ON AIR</time
+          >
+          <div class="firstView-wrapper-concept">
+            <div class="firstView-wrapper-concept-image">
+              <img
+                src="resources/img/siteLogoConcept@2x.png"
+                alt="サイトロゴ"
+                class="firstView-wrapper-concept-image-img"
+              />
+            </div>
+            <div class="firstView-wrapper-concept-texts">
+              <h2 class="firstView-wrapper-concept-texts-title">
+                タイトルが入ります。タイトルが入ります。タイトルが入ります。
+              </h2>
+              <p class="firstView-wrapper-concept-texts-text">
+                本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。
+              </p>
+            </div>
           </div>
         </div>
-        <!--            //背景-->
-        <div class="media-wrapper-eclairMedia-texts">
-          <h2 class="media-wrapper-eclairMedia-texts-title"> eclair.media </h2>
-          <p class="media-wrapper-eclairMedia-texts-text"> 本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。 </p>
-        </div>
-        <div class="media-wrapper-eclairMedia-column">
-          <div class="media-wrapper-eclairMedia-column-item">
-            <div class="media-wrapper-eclairMedia-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-eclairMedia-column-item-image-img">
-            </div>
-            <p class="media-wrapper-eclairMedia-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-eclairMedia-column-item">
-            <div class="media-wrapper-eclairMedia-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-eclairMedia-column-item-image-img">
-            </div>
-            <p class="media-wrapper-eclairMedia-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-eclairMedia-column-item">
-            <div class="media-wrapper-eclairMedia-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-eclairMedia-column-item-image-img">
-            </div>
-            <p class="media-wrapper-eclairMedia-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-eclairMedia-column-item">
-            <div class="media-wrapper-eclairMedia-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-eclairMedia-column-item-image-img">
-            </div>
-            <p class="media-wrapper-eclairMedia-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-eclairMedia-column-item">
-            <div class="media-wrapper-eclairMedia-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-eclairMedia-column-item-image-img">
-            </div>
-            <p class="media-wrapper-eclairMedia-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-        </div>
-      </div>
-      <!--        itokobaブログ-->
-      <div class="media-wrappwer-itokoba">
-        <!--             背景-->
-        <div class="media-wrapper-itokoba-bgOutSide">
-          <div class="media-wrapper-itokoba-bgOutSide-bgInSide">
-            <img src="resources/img/mediaCircleSecond@2x.png" alt="背景画像5" class="mediaImg">
-          </div>
-        </div>
-        <!--            //背景-->
-        <div class="media-wrapper-itokoba-column">
-          <div class="media-wrapper-itokoba-column-item">
-            <div class="media-wrapper-itokoba-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-itokoba-column-item-image-img">
-            </div>
-            <p class="media-wrapper-itokoba-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-itokoba-column-item">
-            <div class="media-wrapper-itokoba-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-itokoba-column-item-image-img">
-            </div>
-            <p class="media-wrapper-itokoba-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-itokoba-column-item">
-            <div class="media-wrapper-itokoba-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-itokoba-column-item-image-img">
-            </div>
-            <p class="media-wrapper-itokoba-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-itokoba-column-item">
-            <div class="media-wrapper-itokoba-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-itokoba-column-item-image-img">
-            </div>
-            <p class="media-wrapper-itokoba-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-itokoba-column-item">
-            <div class="media-wrapper-itokoba-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-itokoba-column-item-image-img">
-            </div>
-            <p class="media-wrapper-itokoba-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-        </div>
-        <div class="media-wrapper-itokoba-texts">
-          <h2 class="media-wrapper-itokoba-texts-title"> itokoba.com </h2>
-          <p class="media-wrapper-itokoba-texts-text"> 本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。 </p>
-        </div>
-      </div>
-      <!--        eclairbブログ-->
-      <div class="media-wrapper-eclairBlog">
-        <!--             背景-->
-        <div class="media-wrapper-eclairBlog-bgOutSide">
-          <div class="media-wrapper-eclairBlog-bgOutSide-bgInSide">
-            <img src="resources/img/mediaCirclethird@2x.png" alt="背景画像6" class="mediaImg">
-          </div>
-        </div>
-        <!--            //背景-->
-        <div class="media-wrapper-eclairBlog-texts">
-          <h2 class="media-wrapper-eclairBlog-texts-title"> eclair.blog </h2>
-          <p class="media-wrapper-eclairBlog-texts-text"> 本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。 </p>
-        </div>
-        <div class="media-wrapper-eclairBlog-column">
-          <div class="media-wrapper-eclairBlog-column-item">
-            <div class="media-wrapper-eclairBlog-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-eclairBlog-column-item-image-img">
-            </div>
-            <p class="media-wrapper-eclairBlog-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-eclairBlog-column-item">
-            <div class="media-wrapper-eclairBlog-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-eclairBlog-column-item-image-img">
-            </div>
-            <p class="media-wrapper-eclairBlog-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-eclairBlog-column-item">
-            <div class="media-wrapper-eclairBlog-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-eclairBlog-column-item-image-img">
-            </div>
-            <p class="media-wrapper-eclairBlog-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-eclairBlog-column-item">
-            <div class="media-wrapper-eclairBlog-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-eclairBlog-column-item-image-img">
-            </div>
-            <p class="media-wrapper-eclairBlog-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-          <div class="media-wrapper-eclairBlog-column-item">
-            <div class="media-wrapper-eclairBlog-column-item-image">
-              <img src="resources/img/Rectangle@2x.png" alt="四角い画像" class="media-wrapper-eclairBlog-column-item-image-img">
-            </div>
-            <p class="media-wrapper-eclairBlog-column-item-description">タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--    note-->
-  <section class="note">
-    <div class="note-wrapper">
-      <!--        上三角形-->
-      <div class="note-wrapper-top"></div>
-      <!--        真ん中-->
-      <div class="note-wrapper-middle">
-        <div class="note-wrapper-middle-inner">
-          <div class="note-wrapper-middle-inner-titles_wrapper">
-            <div class="note-wrapper-middle-inner-titles">
-              <h2 class="note-wrapper-middle-inner-titles-mainTitle">#note</h2>
-              <p class="note-wrapper-middle-inner-titles-subTitle">本文が入ります。本文が入ります。本文が入ります。本文が入ります。</p>
-            </div>
-          </div>
-          <div class="note-wrapper-middle-inner-cards">
-            <!--              cards-top-->
-            <div class="note-wrapper-middle-inner-cards-lineTop">
-              <div class="note-wrapper-middle-inner-cards-lineTop-image">
-                <img src="resources/img/ogp_01NoShadow@2x.png" alt="座談会をやろうと思ったわけ" class="note-wrapper-middle-inner-cards-lineTop-image-img">
+      </section>
+      <section class="media">
+        <div class="media-wrapper">
+          <!--        eclairMedia-->
+          <div class="media-wrapper-eclairMedia">
+            <!--             背景-->
+            <div class="media-wrapper-eclairMedia-bgOutSide">
+              <div class="media-wrapper-eclairMedia-bgOutSide-bgInSide">
+                <img
+                  src="resources/img/mediaCircleFirst@2x.png"
+                  alt="背景画像４"
+                  class="mediaImg"
+                />
               </div>
             </div>
-            <!--              cards-middle-->
-            <div class="note-wrapper-middle-inner-cards-lineMiddle">
-              <!--                  cards-middle-left-->
-              <div class="note-wrapper-middle-inner-cards-lineMiddle-leftImage">
-                <img src="resources/img/ogp_02NoShadow@2x.png" alt="技術はネットで学べ！ビジネスをネットで学ぶのは気をつけろ！" class="note-wrapper-middle-inner-cards-lineMiddle-leftImage-img">
+            <!--            //背景-->
+            <div class="media-wrapper-eclairMedia-texts">
+              <h2 class="media-wrapper-eclairMedia-texts-title">
+                eclair.media
+              </h2>
+              <p class="media-wrapper-eclairMedia-texts-text">
+                本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。
+              </p>
+            </div>
+            <div class="media-wrapper-eclairMedia-column">
+              <div class="media-wrapper-eclairMedia-column-item">
+                <div class="media-wrapper-eclairMedia-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-eclairMedia-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-eclairMedia-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
               </div>
-              <!--                  cards-middle-right-->
-              <div class="note-wrapper-middle-inner-cards-lineMiddle-rightImage">
-                <img src="resources/img/ogp_03NoShadow@2x.png" alt="世界はもう変わっている" class="note-wrapper-middle-inner-cards-lineMiddle-rightImage-img">
+              <div class="media-wrapper-eclairMedia-column-item">
+                <div class="media-wrapper-eclairMedia-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-eclairMedia-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-eclairMedia-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-eclairMedia-column-item">
+                <div class="media-wrapper-eclairMedia-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-eclairMedia-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-eclairMedia-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-eclairMedia-column-item">
+                <div class="media-wrapper-eclairMedia-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-eclairMedia-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-eclairMedia-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-eclairMedia-column-item">
+                <div class="media-wrapper-eclairMedia-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-eclairMedia-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-eclairMedia-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
               </div>
             </div>
-<!--              cards-bottom-->
-              <div class="note-wrapper-middle-inner-cards-lineBottom">
-<!--                  cards-bottom-left-->
-                  <div class="note-wrapper-middle-inner-cards-lineBottom-leftImage">
-                      <img src="resources/img/ogp_04NoShadow@2x.png" alt="仕事で役に立つレベルでプログラミング学習しないと意味がない" class="note-wrapper-middle-inner-cards-lineBottom-leftImage-img">
+          </div>
+          <!--        itokobaブログ-->
+          <div class="media-wrappwer-itokoba">
+            <!--             背景-->
+            <div class="media-wrapper-itokoba-bgOutSide">
+              <div class="media-wrapper-itokoba-bgOutSide-bgInSide">
+                <img
+                  src="resources/img/mediaCircleSecond@2x.png"
+                  alt="背景画像5"
+                  class="mediaImg"
+                />
+              </div>
+            </div>
+            <!--            //背景-->
+            <div class="media-wrapper-itokoba-column">
+              <div class="media-wrapper-itokoba-column-item">
+                <div class="media-wrapper-itokoba-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-itokoba-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-itokoba-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-itokoba-column-item">
+                <div class="media-wrapper-itokoba-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-itokoba-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-itokoba-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-itokoba-column-item">
+                <div class="media-wrapper-itokoba-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-itokoba-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-itokoba-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-itokoba-column-item">
+                <div class="media-wrapper-itokoba-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-itokoba-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-itokoba-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-itokoba-column-item">
+                <div class="media-wrapper-itokoba-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-itokoba-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-itokoba-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+            </div>
+            <div class="media-wrapper-itokoba-texts">
+              <h2 class="media-wrapper-itokoba-texts-title">itokoba.com</h2>
+              <p class="media-wrapper-itokoba-texts-text">
+                本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。
+              </p>
+            </div>
+          </div>
+          <!--        eclairbブログ-->
+          <div class="media-wrapper-eclairBlog">
+            <!--             背景-->
+            <div class="media-wrapper-eclairBlog-bgOutSide">
+              <div class="media-wrapper-eclairBlog-bgOutSide-bgInSide">
+                <img
+                  src="resources/img/mediaCirclethird@2x.png"
+                  alt="背景画像6"
+                  class="mediaImg"
+                />
+              </div>
+            </div>
+            <!--            //背景-->
+            <div class="media-wrapper-eclairBlog-texts">
+              <h2 class="media-wrapper-eclairBlog-texts-title">eclair.blog</h2>
+              <p class="media-wrapper-eclairBlog-texts-text">
+                本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。
+              </p>
+            </div>
+            <div class="media-wrapper-eclairBlog-column">
+              <div class="media-wrapper-eclairBlog-column-item">
+                <div class="media-wrapper-eclairBlog-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-eclairBlog-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-eclairBlog-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-eclairBlog-column-item">
+                <div class="media-wrapper-eclairBlog-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-eclairBlog-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-eclairBlog-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-eclairBlog-column-item">
+                <div class="media-wrapper-eclairBlog-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-eclairBlog-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-eclairBlog-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-eclairBlog-column-item">
+                <div class="media-wrapper-eclairBlog-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-eclairBlog-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-eclairBlog-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+              <div class="media-wrapper-eclairBlog-column-item">
+                <div class="media-wrapper-eclairBlog-column-item-image">
+                  <img
+                    src="resources/img/Rectangle@2x.png"
+                    alt="四角い画像"
+                    class="media-wrapper-eclairBlog-column-item-image-img"
+                  />
+                </div>
+                <p class="media-wrapper-eclairBlog-column-item-description">
+                  タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--    note-->
+      <section class="note">
+        <div class="note-wrapper">
+          <!--        上三角形-->
+          <div class="note-wrapper-top"></div>
+          <!--        真ん中-->
+          <div class="note-wrapper-middle">
+            <div class="note-wrapper-middle-inner">
+              <div class="note-wrapper-middle-inner-titles_wrapper">
+                <div class="note-wrapper-middle-inner-titles">
+                  <h2 class="note-wrapper-middle-inner-titles-mainTitle">
+                    #note
+                  </h2>
+                  <p class="note-wrapper-middle-inner-titles-subTitle">
+                    本文が入ります。本文が入ります。本文が入ります。本文が入ります。
+                  </p>
+                </div>
+              </div>
+              <div class="note-wrapper-middle-inner-cards">
+                <!--              cards-top-->
+                <div class="note-wrapper-middle-inner-cards-lineTop">
+                  <div class="note-wrapper-middle-inner-cards-lineTop-image">
+                    <img
+                      src="resources/img/ogp_01NoShadow@2x.png"
+                      alt="座談会をやろうと思ったわけ"
+                      class="note-wrapper-middle-inner-cards-lineTop-image-img"
+                    />
                   </div>
-<!--                  cards-bottom-right-->
-                  <div class="note-wrapper-middle-inner-cards-lineBottom-rightImage">
-                      <img src="resources/img/ogp_05NoShadow@2x.png" alt="正解のない情報の海に飛び込む子羊" class="note-wrapper-middle-inner-cards-lineBottom-rightImage-img">
+                </div>
+                <!--              cards-middle-->
+                <div class="note-wrapper-middle-inner-cards-lineMiddle">
+                  <!--                  cards-middle-left-->
+                  <div
+                    class="note-wrapper-middle-inner-cards-lineMiddle-leftImage"
+                  >
+                    <img
+                      src="resources/img/ogp_02NoShadow@2x.png"
+                      alt="技術はネットで学べ！ビジネスをネットで学ぶのは気をつけろ！"
+                      class="note-wrapper-middle-inner-cards-lineMiddle-leftImage-img"
+                    />
                   </div>
+                  <!--                  cards-middle-right-->
+                  <div
+                    class="note-wrapper-middle-inner-cards-lineMiddle-rightImage"
+                  >
+                    <img
+                      src="resources/img/ogp_03NoShadow@2x.png"
+                      alt="世界はもう変わっている"
+                      class="note-wrapper-middle-inner-cards-lineMiddle-rightImage-img"
+                    />
+                  </div>
+                </div>
+                <!--              cards-bottom-->
+                <div class="note-wrapper-middle-inner-cards-lineBottom">
+                  <!--                  cards-bottom-left-->
+                  <div
+                    class="note-wrapper-middle-inner-cards-lineBottom-leftImage"
+                  >
+                    <img
+                      src="resources/img/ogp_04NoShadow@2x.png"
+                      alt="仕事で役に立つレベルでプログラミング学習しないと意味がない"
+                      class="note-wrapper-middle-inner-cards-lineBottom-leftImage-img"
+                    />
+                  </div>
+                  <!--                  cards-bottom-right-->
+                  <div
+                    class="note-wrapper-middle-inner-cards-lineBottom-rightImage"
+                  >
+                    <img
+                      src="resources/img/ogp_05NoShadow@2x.png"
+                      alt="正解のない情報の海に飛び込む子羊"
+                      class="note-wrapper-middle-inner-cards-lineBottom-rightImage-img"
+                    />
+                  </div>
+                </div>
               </div>
+            </div>
+          </div>
+          <!--        下三角形-->
+          <div class="note-wrapper-bottom"></div>
+        </div>
+      </section>
+      <section class="twitter">
+        <div class="twitter-wrapper">
+          <div class="twitter-wrapper-inner">
+            <div class="twitter-wrapper-inner-texts">
+              <h2 class="twitter-wrapper-inner-texts-title">#Twitter</h2>
+              <p class="twitter-wrapper-inner-texts-text">
+                本文が入ります。本文が入ります。本文が入ります。
+                本文が入ります。本文が入ります。
+                本文が入ります。本文が入ります。本文が入りま
+              </p>
+            </div>
+            <div class="twitter-wrapper-inner-people">
+              <div class="twitter-wrapper-inner-people-left">
+                <div class="twitter-wrapper-inner-people-left-image">
+                  <img
+                    src="./resources/img/hideki@2x.png"
+                    alt="こばやしさん"
+                    class="twitter-wrapper-inner-people-left-image-img"
+                  />
+                </div>
+                <p class="twitter-wrapper-inner-people-left-text">
+                  @hideki_climax
+                </p>
+              </div>
+              <div class="twitter-wrapper-inner-people-right">
+                <div class="twitter-wrapper-inner-people-right-image">
+                  <img
+                    src="./resources/img/Mask Group@2x.png"
+                    alt="せたさん"
+                    class="twitter-wrapper-inner-people-right-image-img"
+                  />
+                </div>
+                <p class="twitter-wrapper-inner-people-right-text">@YutoSeta</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <!--        下三角形-->
-      <div class="note-wrapper-bottom"></div>
-    </div>
-  </section>
-</main>
-<script src="resources/javascript/jquery-3.6.0.min.js"></script>
-<script src="resources/javascript/main.js"></script>
-</body>
+      </section>
+    </main>
+    <script src="resources/javascript/jquery-3.6.0.min.js"></script>
+    <script src="resources/javascript/main.js"></script>
+  </body>
 </html>
