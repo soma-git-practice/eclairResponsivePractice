@@ -1251,29 +1251,33 @@ font-family: 'Roboto Slab', serif;*/
   margin-right: 5vw;
   margin-left: 5vw;
 }
-.twitter-middle-inner-rotate {
-  margin-right: 8px;
+
+.twitter-middle-inner-container {
+  margin-right: auto;
+  margin-left: auto;
   padding-bottom: 47px;
+  max-width: 1152px;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  gap: 87px;
 }
-.twitter-middle-inner-rotate-texts {
-  width: 464px;
+
+.twitter-middle-inner-container-texts {
+  order: 2;
+  margin-left: 87px;
+  text-align: center;
 }
-.twitter-middle-inner-rotate-texts-title {
+
+.twitter-middle-inner-container-texts-title {
   margin-bottom: 22px;
   padding-top: 29px;
   line-height: 1.28125;
-  text-align: center;
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 96px;
   color: #fff;
 }
-.twitter-middle-inner-rotate-texts-text {
+
+.twitter-middle-inner-container-texts-text {
   line-height: 1.77777777778;
   letter-spacing: 0.0555em;
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -1282,23 +1286,29 @@ font-family: 'Roboto Slab', serif;*/
   font-size: 18px;
   color: #fff;
 }
-.twitter-middle-inner-rotate-people {
+
+.twitter-middle-inner-container-people {
+  order: 1;
   display: flex;
-  gap: 86px;
 }
-.twitter-middle-inner-rotate-people-left {
+
+.twitter-middle-inner-container-people-left {
   padding-top: 148px;
-  text-align: center;
+  margin-left: 73px;
 }
-.twitter-middle-inner-rotate-people-left-image {
+
+.twitter-middle-inner-container-people-left-image {
   margin-right: auto;
+  margin-bottom: 28.3px;
   margin-left: auto;
   width: 149.66px;
 }
-.twitter-middle-inner-rotate-people-left-image-img {
+
+.twitter-middle-inner-container-people-left-image-img {
   width: 100%;
 }
-.twitter-middle-inner-rotate-people-left-text {
+
+.twitter-middle-inner-container-people-left-text {
   line-height: 1.27777777778;
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   font-family: "Roboto", sans-serif;
@@ -1306,19 +1316,24 @@ font-family: 'Roboto Slab', serif;*/
   font-size: 36px;
   color: #fff;
 }
-.twitter-middle-inner-rotate-people-right {
+
+.twitter-middle-inner-container-people-right {
   padding-top: 98px;
-  text-align: center;
+  margin-left: 86px;
 }
-.twitter-middle-inner-rotate-people-right-image {
+
+.twitter-middle-inner-container-people-right-image {
   margin-right: auto;
+  margin-bottom: 28.3px;
   margin-left: auto;
   width: 149.66px;
 }
-.twitter-middle-inner-rotate-people-right-image-img {
+
+.twitter-middle-inner-container-people-right-image-img {
   width: 100%;
 }
-.twitter-middle-inner-rotate-people-right-text {
+
+.twitter-middle-inner-container-people-right-text {
   line-height: 1.27777777778;
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   font-family: "Roboto", sans-serif;
