@@ -776,128 +776,6 @@ font-family: 'Roboto Slab', serif;*/
   }
 }
 /*note*/
-/*
-.note-wrapper{
-    position: relative;
-    z-index: 2;
-}
-.note-wrapper-bg{
-    position: absolute;
-    z-index: 3;
-    padding-bottom: 146px;
-    width: 100vw;
-    overflow: hidden;
-}
-.note-wrapper-bg-bgColor02B6A0{
-    position: relative;
-    z-index: 4;
-    top: 78px;
-    left: -264.3px;
-    transform: rotate(5.38deg);
-    width: 1719.57px;
-    height: 1460.21px;
-    background-color: #02B6A0;
-}
-.note-wrapper-bg-bgColor333{
-    position: absolute;
-    z-index: 3;
-    bottom: 32px;
-    width: 100vw;
-    padding-bottom: 89px;
-    background-color: #333;
-}
-.note-wrapper-inner{
-    position: relative;
-    z-index: 5;
-    padding-top: 140px;
-    margin-right: 5vw;
-    margin-left: 5vw;
-}
-.note-wrapper-inner-titles{
-    margin-bottom: 66px;
-    padding-top: 39px;
-    display: flex;
-    align-items: center;
-}
-.note-wrapper-inner-titles-mainTitle{
-    margin-left: 75px;
-    line-height: 1.28125;
-    text-shadow: 4px 4px 0px #333;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 96px;
-    color: #fff;
-}
-.note-wrapper-inner-titles-subTitle{
-    margin-left: 51px;
-    text-shadow: 1px 1px 0px #333;
-    line-height: 1.77777778;
-    letter-spacing: 0.0555em;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    color: #fff;
-}
-.note-wrapper-inner-cards-topSide{
-    margin-bottom: 54px;
-    display: flex;
-    justify-content: center;
-}
-.note-wrapper-inner-cards-topSide-image{
-    margin-left: 67px;
-    width: 499px;
-}
-.note-wrapper-inner-cards-topSide-image-img{
-    width: 100%;
-}
-
-.note-wrapper-inner-cards-middleSide{
-    padding-bottom: 108px;
-    display: flex;
-}
-@media screen and (max-width: 1000px){
-    .note-wrapper-inner-cards-middleSide{
-        flex-wrap: wrap;
-    }
-}
-.note-wrapper-inner-cards-middleSide-leftImage{
-    margin-left: 56px;
-    width: 500px;
-}
-.note-wrapper-inner-cards-middleSide-leftImage-img{
-    width: 100%;
-}
-.note-wrapper-inner-cards-middleSide-rightImage{
-    margin-left: 108px;
-    width: 331px;
-}
-.note-wrapper-inner-cards-middleSide-rightImage-img{
-    width: 100%;
-}
-
-.note-wrapper-inner-cards-bottomSide{
-    padding-bottom: 176px;
-    display: flex;
-}
-@media screen and (max-width: 1000px){
-    .note-wrapper-inner-cards-bottomSide{
-        flex-wrap: wrap;
-    }
-}
-.note-wrapper-inner-cards-bottomSide-leftImage{
-    margin-left: 139px;
-    width: 331px;
-}
-.note-wrapper-inner-cards-bottomSide-leftImage-img{
-    width: 100%;
-}
-.note-wrapper-inner-cards-bottomSide-rightImage{
-    margin-left: 88px;
-    width: 500px;
-}
-.note-wrapper-inner-cards-bottomSide-rightImage-img{
-    width: 100%;
-}*/
 .note-wrapper {
   position: relative;
   background-color: #fefefe;
@@ -1260,10 +1138,28 @@ font-family: 'Roboto Slab', serif;*/
   display: flex;
 }
 
+@media screen and (max-width: 1200px) {
+  .twitter-middle-inner-container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .twitter-middle-inner-container {
+    padding-bottom: 80px;
+  }
+}
+
 .twitter-middle-inner-container-texts {
   order: 2;
   margin-left: 87px;
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .twitter-middle-inner-container-texts {
+    margin-left: 0px;
+  }
 }
 
 .twitter-middle-inner-container-texts-title {
@@ -1277,6 +1173,15 @@ font-family: 'Roboto Slab', serif;*/
   color: #fff;
 }
 
+@media screen and (max-width: 600px) {
+  .twitter-middle-inner-container-texts-title {
+    margin-bottom: 0px;
+    padding-top: 55px;
+    line-height: 1.27777777778;
+    font-size: 36px;
+  }
+}
+
 .twitter-middle-inner-container-texts-text {
   line-height: 1.77777777778;
   letter-spacing: 0.0555em;
@@ -1287,14 +1192,51 @@ font-family: 'Roboto Slab', serif;*/
   color: #fff;
 }
 
+@media screen and (max-width: 1200px) {
+  .twitter-middle-inner-container-texts-text {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .twitter-middle-inner-container-texts-text {
+    margin-bottom: 34px;
+    line-height: 1.75;
+    letter-spacing: 0.08333em;
+    font-size: 12px;
+  }
+}
+
+/* @media screen and (max-width: 1200px) {
+  .twitter-middle-inner-container-texts-text-br {
+    display: none;
+  }
+} */
+
 .twitter-middle-inner-container-people {
   order: 1;
   display: flex;
 }
 
+@media screen and (max-width: 1200px) {
+  .twitter-middle-inner-container-people {
+    justify-content: center;
+    /* gap: 60px; */
+    gap: 10vw;
+  }
+}
+
 .twitter-middle-inner-container-people-left {
   padding-top: 148px;
   margin-left: 73px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .twitter-middle-inner-container-people-left {
+    padding-top: 0px;
+    margin-left: 0px;
+  }
 }
 
 .twitter-middle-inner-container-people-left-image {
@@ -1302,6 +1244,13 @@ font-family: 'Roboto Slab', serif;*/
   margin-bottom: 28.3px;
   margin-left: auto;
   width: 149.66px;
+}
+
+@media screen and (max-width: 600px) {
+  .twitter-middle-inner-container-people-left-image {
+    margin-bottom: 14px;
+    width: 120px;
+  }
 }
 
 .twitter-middle-inner-container-people-left-image-img {
@@ -1317,9 +1266,23 @@ font-family: 'Roboto Slab', serif;*/
   color: #fff;
 }
 
+@media screen and (max-width: 600px) {
+  .twitter-middle-inner-container-people-left-text {
+    font-size: 18px;
+  }
+}
+
 .twitter-middle-inner-container-people-right {
   padding-top: 98px;
   margin-left: 86px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .twitter-middle-inner-container-people-right {
+    padding-top: 0px;
+    margin-left: 0px;
+  }
 }
 
 .twitter-middle-inner-container-people-right-image {
@@ -1327,6 +1290,13 @@ font-family: 'Roboto Slab', serif;*/
   margin-bottom: 28.3px;
   margin-left: auto;
   width: 149.66px;
+}
+
+@media screen and (max-width: 600px) {
+  .twitter-middle-inner-container-people-right-image {
+    margin-bottom: 14px;
+    width: 120px;
+  }
 }
 
 .twitter-middle-inner-container-people-right-image-img {
@@ -1340,6 +1310,12 @@ font-family: 'Roboto Slab', serif;*/
   font-weight: bold;
   font-size: 36px;
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .twitter-middle-inner-container-people-right-text {
+    font-size: 18px;
+  }
 }
 
 .twitter-bottom {
